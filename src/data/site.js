@@ -30,8 +30,24 @@ export const heroMeta = [
 
 export const projects = [
   {
-    id: 'smartseason',
+    id: 'soinsync',
     index: '01',
+    name: 'Soinsync — Real Estate Management',
+    label: 'Soinsync',
+    category: 'PropTech SaaS',
+    thumb: 'thumb-5',
+    image: '/projects/soinsync.jpg',
+    imageAlt:
+      'Soinsync Real Estate admin dashboard — sidebar nav with Properties, Tenants, Leases, Payments, Issues; KPI tiles for properties, units, occupancy, leases, payments, open issues; revenue line chart and unit-utilization donut.',
+    description:
+      "A production-ready rental management platform for property managers and their tenants. Admins oversee properties, units, leases, payments, and maintenance issues from a KPI-led dashboard with revenue and occupancy charts; tenants get a focused portal for their lease, payments, and issue reports. JWT auth, role-based access, and a Prisma/MySQL backend keep the operational data clean and the day-to-day work boring in the best way.",
+    tags: ['SaaS Platform', 'Dashboard', 'Auth & Roles'],
+    href: 'https://github.com/kipngenokev/soin-real-estate',
+    feature: true,
+  },
+  {
+    id: 'smartseason',
+    index: '02',
     name: 'SmartSeason — Field Monitoring',
     label: 'SmartSeason',
     category: 'AgriTech SaaS',
@@ -47,7 +63,7 @@ export const projects = [
   },
   {
     id: 'mwamba',
-    index: '02',
+    index: '03',
     name: 'Mwamba Rugby — Kenya Cup Women Final',
     label: 'Mwamba RFC',
     category: 'Sports & Events',
@@ -63,7 +79,7 @@ export const projects = [
   },
   {
     id: 'kipyegon-malel',
-    index: '03',
+    index: '04',
     name: 'Kipyegon Malel & Co. Advocates',
     label: 'KM & Co.',
     category: 'Law Firm',
@@ -79,7 +95,7 @@ export const projects = [
   },
   {
     id: 'vitapharm',
-    index: '04',
+    index: '05',
     name: 'Vitapharm Beauty & Health',
     label: 'Vitapharm',
     category: 'E-commerce',
@@ -95,7 +111,7 @@ export const projects = [
   },
   {
     id: 'lexa',
-    index: '05',
+    index: '06',
     name: 'Lexa — AI Paralegal Copilot',
     label: 'LEXA',
     category: 'AI / LegalTech',
