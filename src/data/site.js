@@ -40,7 +40,7 @@ export const projects = [
     imageAlt:
       'Soinsync Real Estate admin dashboard — sidebar nav with Properties, Tenants, Leases, Payments, Issues; KPI tiles for properties, units, occupancy, leases, payments, open issues; revenue line chart and unit-utilization donut.',
     description:
-      "A production-ready rental management platform for property managers and their tenants. Admins oversee properties, units, leases, payments, and maintenance issues from a KPI-led dashboard with revenue and occupancy charts; tenants get a focused portal for their lease, payments, and issue reports. JWT auth, role-based access, and a Prisma/MySQL backend keep the operational data clean and the day-to-day work boring in the best way.",
+      "A production-ready real-estate management platform for property managers and their tenants. Admins oversee properties, units, leases, payments, and maintenance issues from a KPI-led dashboard with revenue and occupancy charts; tenants get a focused portal for their lease, payments, and issue reports. JWT auth, role-based access, and a Prisma/MySQL backend keep the operational data clean and the day-to-day work boring in the best way.",
     tags: ['SaaS Platform', 'Dashboard', 'Auth & Roles'],
     href: 'https://github.com/kipngenokev/soin-real-estate',
     feature: true,
